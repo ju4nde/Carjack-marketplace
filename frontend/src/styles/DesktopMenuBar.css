@@ -1,0 +1,147 @@
+/* HEADER BOX */
+.menu-bar{
+    display:flex;
+    align-items: center;
+    /*border: 2.5px solid red;*/
+    justify-content: space-between;
+    flex-wrap:wrap;
+    align-content: space-around;
+}
+/*LOGO AND SEARCH BAR BOX*/
+
+.menu-left{
+   flex-wrap:nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   /* border: 2px solid;*/
+    gap:80px;
+    
+}
+
+/*LOGO PROPERTIES*/
+.menu-left img {
+    height: auto;  /* Maintain aspect ratio */ /* Make the logo width responsive */
+    max-width: 150px;  /* Limit the maximum size of the logo */
+    margin: 0;      /* Remove any margin */
+    margin-left: 15px;
+  }
+  /*LOGO LINK BOX*/
+  .menu-left a {
+    width: auto;
+    padding: 0;
+    margin: 0;
+  }
+  /*SEARCH BAR AND BUTTON CONTAINER*/
+  .search-container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    /*border: 2px solid yellowgreen;*/
+  }  
+  /*SEARCH BAR PROPERTIES*/
+   .search-bar{
+    padding: 10px; /* Add some padding inside the input field */
+    font-size: 16px; /* Set font size for text inside the search bar */
+    border: 2.5px solid #C60000; /* Light grey border */
+    border-radius: 25px; /* Round the corners of the input */
+    width: 400px; /* Set width to make the search bar not too wide */
+    transition: border-color 0.5s ease;
+  }
+
+  /*BUTTON FROM SEARCHBAR PROPERTIES*/
+  .search-button{
+  position: absolute;
+  top: 50%; /* Vertically center the button */
+  transform: translateY(-50%);
+  right: 10px; /* Position the button inside the input field to the right */
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  }
+  .search-button img {
+    width:30px;
+    height:30px;
+
+  }
+  .search-bar:focus{
+    border-color: #007BFF;
+  }
+
+  .search-bar:hover {
+    border-color: #007BFF; /* Border color on hover */ 
+}
+
+
+.menu-center{
+  display: flex;
+  /*border: 2px solid purple;*/
+}
+
+.carmodel{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  color:#C60000;
+  font-size: 10px;
+  padding:10px;
+}
+.carmodel svg{
+  font-size: 30px;
+  transition: color 0.5s ease;
+}
+.carmodel span{
+  color:black;
+  font-weight: bold;
+}
+.carmodel:hover{
+  color: #007BFF;
+}
+.location{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  color:#C60000;
+  font-size: 10px;
+  padding:10px;
+}
+.location svg{
+  font-size: 30px;
+  transition: color 0.5s ease;
+}
+.location span{
+  color: black;
+  font-weight: bold;
+}
+.location:hover{
+  color: #007BFF;
+}
+
+.menu-right{
+   display:flex;
+   /*border: 2.5px solid blue;*/
+}
+/* Style for menu items */
+.menu-item {
+    display: flex;/* Align icons and text vertically */
+    text-decoration: none; /* Remove underlines from the links */
+    padding: 10px 15px; /* Add some padding around each menu item */
+    color: #C60000; /* Default color for text */
+    font-size: 16px; /* Set the font size for text */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover transition */
+}
+.menu-item span{
+    color: black;
+}
+
+  /* Style for the icons */
+.menu-item svg {
+    margin-right: 10px; /* Add space between the icon and the text */
+    font-size: 18px; /* Set icon size */
+    transition: color 0.3s ease; /* Smooth color transition for the icon */
+}
+.menu-item:hover {
+     /* Change background on hover */
+    color: #007BFF; /* Change text color on hover */
+}
