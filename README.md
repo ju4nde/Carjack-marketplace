@@ -5,28 +5,35 @@ A full-stack platform for buying and selling car parts. This project includes us
 
 ## 🚀 Features
 
-### 🔐 User Authentication
-- Secure signup/login using **bcrypt** password hashing  
-- Session-based authentication  
-- Input validation and error handling  
-
-### 🛒 Listings Management
-- Create, update, delete, and view car-part listings  
-- Filter and browse available products  
-- Clean API structure for retrieving listings  
-
-### 🧱 Full-Stack Architecture
-- REST API built with Express + Node.js  
-- Separate frontend and backend codebases  
-- MySQL database with relational schema design  
-- Environment-based configuration  
-
 ### 🎨 UI/UX (React + Tailwind)
 - Modern responsive layout  
 - Clean navigation and user-friendly workflows  
 - Reusable components  
 
----
+### 🔐 User Authentication
+- Secure signup/login using **bcrypt** password hashing  
+- Session-based authentication  
+- Input validation and error handling
+
+### 🧱 Full-Stack Architecture
+- REST API built with Express + Node.js  
+- Separate frontend and backend codebases  
+- Environment-based configuration
+
+
+IN PROGRESS:
+
+### 🛒 Listings Management
+- Create, update, delete, and view car-part listings  
+- Filter and browse available products  
+- Clean API structure for retrieving listings
+- MySQL database with relational schema design  
+
+
+
+
+
+----------------------------------------------------
 
 ## 🛠 Tech Stack
 
